@@ -1,26 +1,38 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Google</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <div class="left">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Store</a></li>
-        </div>
-        <div class="right">
-          <li><a href="#">Mail</a></li>
-          <li><a href="#">Images</a></li>
-          <li><a href="#">Mail</a></li>
-          <li><a href="#"><img src="https://image.flaticon.com/icons/svg/121/121085.svg" class="more-info"></a></li>
-          <li><a href="#"><img src="https://image.flaticon.com/icons/svg/181/181539.svg" class="more-info"></a></li>
-          <li><a href="#"><img src="data:image/png;base64,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" class="more-info"></a></li>
-        </div>
-      </ul>
-    </nav>
-  </body>
-</html>
+<nav>
+    <ul class="l_nav">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Store</a></li>
+    </ul>
+
+    <ul class="right-nav">
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+      <li><a href="#"><img class="apps" src="https://thumb.ibb.co/gykLCw/grid_menu.png"</a></li>
+      <li class="sign-in"><a href="#">Sign in</a></li>
+    </ul>
+  </nav>
+
+  <section class="main">
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+    <img class="mic" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png" alt="" />
+    <form action="#" method="#" name="searchquery">
+      <input type="text" name="searchfield" class="search-bar"></input>
+      <div class="search-buttons">
+        <input class="submit-buttons" type="submit" value="Google Search" name="submit">
+        <input class="submit-buttons" type="submit" value="I'm Feeling Lucky" name="feelinglucky"></input>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <ul class="left-footer">
+      <li><a href="#">Advertising</a></li>
+      <li><a href="#">Business</a></li>
+    </ul>
+
+    <ul class="right-footer">
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </footer>
